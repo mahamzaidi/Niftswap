@@ -5,7 +5,7 @@ const migrations = artifacts.require("Migrations.sol");
 
 module.exports = async function (deployer, network) {
     let weth;
-    const FACTORY_ADDRESS = '0x89ABFef8EBc5538ee45E48e8e072f8FfF295cDEd';
+    const FACTORY_ADDRESS = '0x78A47245BC7BDaa0DB7c19b7B6116E1E11e9fE20' ;
 
     if (network === 'mainnet') {
         weth = await WETH.at('0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2');

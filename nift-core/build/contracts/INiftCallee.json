@@ -32,15 +32,15 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"sender\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount0\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"amount1\",\"type\":\"uint256\"},{\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"}],\"name\":\"niftCall\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/D/Blockchain/pancake/nift-core/contracts/interfaces/INiftCallee.sol\":\"INiftCallee\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/D/Blockchain/pancake/nift-core/contracts/interfaces/INiftCallee.sol\":{\"keccak256\":\"0xc3da16652e48deb7e6401c48f4825bc5ca94e2d59673630e2512acada2cb8e79\",\"urls\":[\"bzz-raw://5bbe41a42384f36df44717afb96318cb50bcfd95c36c31fb8febbc90cdc44375\",\"dweb:/ipfs/QmdzPTAP8gQ7ywjJL7vTc9XMg8bjzgcgQTPr3SdTJ8KGZv\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"sender\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount0\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"amount1\",\"type\":\"uint256\"},{\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"}],\"name\":\"niftCall\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/D/Blockchain/Niftswap/nift-core/contracts/interfaces/INiftCallee.sol\":\"INiftCallee\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/D/Blockchain/Niftswap/nift-core/contracts/interfaces/INiftCallee.sol\":{\"keccak256\":\"0xc3da16652e48deb7e6401c48f4825bc5ca94e2d59673630e2512acada2cb8e79\",\"urls\":[\"bzz-raw://5bbe41a42384f36df44717afb96318cb50bcfd95c36c31fb8febbc90cdc44375\",\"dweb:/ipfs/QmdzPTAP8gQ7ywjJL7vTc9XMg8bjzgcgQTPr3SdTJ8KGZv\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "pragma solidity >=0.5.0;\r\n\r\ninterface INiftCallee {\r\n    function niftCall(address sender, uint amount0, uint amount1, bytes calldata data) external;\r\n}\r\n",
-  "sourcePath": "D:\\Blockchain\\pancake\\nift-core\\contracts\\interfaces\\INiftCallee.sol",
+  "sourcePath": "D:\\Blockchain\\Niftswap\\nift-core\\contracts\\interfaces\\INiftCallee.sol",
   "ast": {
-    "absolutePath": "/D/Blockchain/pancake/nift-core/contracts/interfaces/INiftCallee.sol",
+    "absolutePath": "/D/Blockchain/Niftswap/nift-core/contracts/interfaces/INiftCallee.sol",
     "exportedSymbols": {
       "INiftCallee": [
         1775
@@ -214,7 +214,7 @@
     "src": "0:154:5"
   },
   "legacyAST": {
-    "absolutePath": "/D/Blockchain/pancake/nift-core/contracts/interfaces/INiftCallee.sol",
+    "absolutePath": "/D/Blockchain/Niftswap/nift-core/contracts/interfaces/INiftCallee.sol",
     "exportedSymbols": {
       "INiftCallee": [
         1775
@@ -393,7 +393,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.1",
-  "updatedAt": "2021-04-16T18:25:12.744Z",
+  "updatedAt": "2021-04-17T08:58:28.480Z",
   "devdoc": {
     "methods": {}
   },

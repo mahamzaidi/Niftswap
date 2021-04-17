@@ -32,7 +32,7 @@ module.exports = async function (deployer, network) {
     let feeAccount = FARM_FEE_ACCOUNT;
     let currentAccount = "0xe95745a8F4E3cDb1cF5bfFD4A94F0B249e99f489";
     let wrapped_bnb = "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c";
-    let lpaddress = "0x1Ba4d47F3Bd171bC293513E5804E9f6981E89A5B";
+    let lpaddress = "0x1Ba4d47F3Bd171bC2935135804E9f6981E89A5B";
 
     /**Deploy nift token */
     deployer.deploy(NiftToken).then((result) => {
@@ -104,34 +104,35 @@ module.exports = async function (deployer, network) {
             '99999999999999999',                      // _endBlock
         )
     })
-        .then((tx) => {
-            logTx(tx);
-            /**
-            * Deploy BnbStaking
-            */
-            if (network == "mainnet") {
-                console.log(`Deploying BnbStaking with BSC MAINNET settings.`)
-                return deployer.deploy(BnbStaking,
-                    lpaddress,
-                    NiftToken.address,   //_reward token              
-                    BigNumber.from(TOKENS_PER_BLOCK).mul(BigNumber.from(String(10 ** 18))),  //_reward per block                                   
-                    REWARDS_START,      //start block                      
-                    STARTING_BLOCK + (BLOCKS_PER_DAY * 365),  //bonusendblock
-                    feeAccount, //admin address
-                    wrapped_bnb //address _wbnb
-                )
-            } console.log(`Deploying BnbStaking with DEV/TEST settings`)
+        // .then((tx) => {
+        //     logTx(tx);
+        //     /**
+        //     * Deploy BnbStaking
+        //     */
+        //     if (network == "mainnet") {
+        //         console.log(`Deploying BnbStaking with BSC MAINNET settings.`)
+        //         return deployer.deploy(BnbStaking,
+        //             lpaddress,
+        //             NiftToken.address,   //_reward token              
+        //             BigNumber.from(TOKENS_PER_BLOCK).mul(BigNumber.from(String(10 ** 18))),  //_reward per block                                   
+        //             REWARDS_START,      //start block                      
+        //             STARTING_BLOCK + (BLOCKS_PER_DAY * 365),  //bonusendblock
+        //             feeAccount, //admin address
+        //             wrapped_bnb //address _wbnb
+        //         )
+        //     } console.log(`Deploying BnbStaking with DEV/TEST settings`)
 
-            return deployer.deploy(BnbStaking,
-                lpaddress,
-                NiftToken.address,   //_reward token              
-                BigNumber.from(TOKENS_PER_BLOCK).mul(BigNumber.from(String(10 ** 18))),  //_reward per block                                   
-                REWARDS_START,      //start block                      
-                STARTING_BLOCK + (BLOCKS_PER_DAY * 365),  //bonusendblock
-                feeAccount, //admin address
-                wrapped_bnb
-            )
-        }).then(() => {
+        //     return deployer.deploy(BnbStaking,
+        //         lpaddress,
+        //         NiftToken.address,   //_reward token              
+        //         BigNumber.from(TOKENS_PER_BLOCK).mul(BigNumber.from(String(10 ** 18))),  //_reward per block                                   
+        //         REWARDS_START,      //start block                      
+        //         STARTING_BLOCK + (BLOCKS_PER_DAY * 365),  //bonusendblock
+        //         feeAccount, //admin address
+        //         wrapped_bnb
+        //     )
+        // })
+        .then(() => {
             /**
              * Deploy Timelock
              */
@@ -144,7 +145,7 @@ module.exports = async function (deployer, network) {
                 NiftToken: NiftToken.address,
                 NiftBar: NiftBar.address,
                 Timelock: Timelock.address,
-                BnbStaking: BnbStaking.address,
+               // BnbStaking: BnbStaking.address,
             })
         });
 };

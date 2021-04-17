@@ -1,16 +1,16 @@
 {
   "contractName": "SafeMath",
   "abi": [],
-  "metadata": "{\"compiler\":{\"version\":\"0.6.6+commit.6c089d02\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/D/Blockchain/pancake/niftswap-periphery/contracts/libraries/SafeMath.sol\":\"SafeMath\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/D/Blockchain/pancake/niftswap-periphery/contracts/libraries/SafeMath.sol\":{\"keccak256\":\"0x977f38b601109ee7a0c1b70a32e08b7aecf5b4672bdea39fa6b7fec810943b80\",\"urls\":[\"bzz-raw://50296b94e299cd690f4a7966a93ac6ac58128080b0a14fdb1c2e07d71b50930c\",\"dweb:/ipfs/QmSCqtcNbmcXUekQk2NYGDQcWt34sASe6ru1v2FLBX9coc\"]}},\"version\":1}",
-  "bytecode": "0x60566023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220c63aad0fdd39847c1ac48f262786e23118a9fa56abd41ce20585702908c47e4c64736f6c63430006060033",
-  "deployedBytecode": "0x73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220c63aad0fdd39847c1ac48f262786e23118a9fa56abd41ce20585702908c47e4c64736f6c63430006060033",
+  "metadata": "{\"compiler\":{\"version\":\"0.6.6+commit.6c089d02\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/D/Blockchain/Niftswap/niftswap-periphery/contracts/libraries/SafeMath.sol\":\"SafeMath\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/D/Blockchain/Niftswap/niftswap-periphery/contracts/libraries/SafeMath.sol\":{\"keccak256\":\"0x977f38b601109ee7a0c1b70a32e08b7aecf5b4672bdea39fa6b7fec810943b80\",\"urls\":[\"bzz-raw://50296b94e299cd690f4a7966a93ac6ac58128080b0a14fdb1c2e07d71b50930c\",\"dweb:/ipfs/QmSCqtcNbmcXUekQk2NYGDQcWt34sASe6ru1v2FLBX9coc\"]}},\"version\":1}",
+  "bytecode": "0x60566023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220eccef2d87799a48d6ed94e471f6fb7941798237af6d273f333d996025a35070c64736f6c63430006060033",
+  "deployedBytecode": "0x73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220eccef2d87799a48d6ed94e471f6fb7941798237af6d273f333d996025a35070c64736f6c63430006060033",
   "immutableReferences": {},
   "sourceMap": "135:442:18:-:0;;132:2:-1;166:7;155:9;146:7;137:37;255:7;249:14;246:1;241:23;235:4;232:33;222:2;;269:9;222:2;293:9;290:1;283:20;323:4;314:7;306:22;347:7;338;331:24",
   "deployedSourceMap": "135:442:18:-:0;;;;;;12:1:-1;9;2:12",
   "source": "pragma solidity =0.6.6;\r\n\r\n// a library for performing overflow-safe math, courtesy of DappHub (https://github.com/dapphub/ds-math)\r\n\r\nlibrary SafeMath {\r\n    function add(uint x, uint y) internal pure returns (uint z) {\r\n        require((z = x + y) >= x, 'ds-math-add-overflow');\r\n    }\r\n\r\n    function sub(uint x, uint y) internal pure returns (uint z) {\r\n        require((z = x - y) <= x, 'ds-math-sub-underflow');\r\n    }\r\n\r\n    function mul(uint x, uint y) internal pure returns (uint z) {\r\n        require(y == 0 || (z = x * y) / y == x, 'ds-math-mul-overflow');\r\n    }\r\n}\r\n",
-  "sourcePath": "D:\\Blockchain\\pancake\\niftswap-periphery\\contracts\\libraries\\SafeMath.sol",
+  "sourcePath": "D:\\Blockchain\\Niftswap\\niftswap-periphery\\contracts\\libraries\\SafeMath.sol",
   "ast": {
-    "absolutePath": "/D/Blockchain/pancake/niftswap-periphery/contracts/libraries/SafeMath.sol",
+    "absolutePath": "/D/Blockchain/Niftswap/niftswap-periphery/contracts/libraries/SafeMath.sol",
     "exportedSymbols": {
       "SafeMath": [
         6417
@@ -1080,7 +1080,7 @@
     "src": "0:579:18"
   },
   "legacyAST": {
-    "absolutePath": "/D/Blockchain/pancake/niftswap-periphery/contracts/libraries/SafeMath.sol",
+    "absolutePath": "/D/Blockchain/Niftswap/niftswap-periphery/contracts/libraries/SafeMath.sol",
     "exportedSymbols": {
       "SafeMath": [
         6417
@@ -2155,7 +2155,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.1",
-  "updatedAt": "2021-04-16T18:32:15.094Z",
+  "updatedAt": "2021-04-17T09:18:02.676Z",
   "devdoc": {
     "methods": {}
   },

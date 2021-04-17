@@ -35,16 +35,16 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.6.6+commit.6c089d02\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"token\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amountTokenMin\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"amountETHMin\",\"type\":\"uint256\"},{\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"deadline\",\"type\":\"uint256\"}],\"name\":\"migrate\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/D/Blockchain/pancake/niftswap-periphery/contracts/interfaces/INiftMigrator.sol\":\"INiftMigrator\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/D/Blockchain/pancake/niftswap-periphery/contracts/interfaces/INiftMigrator.sol\":{\"keccak256\":\"0xfe6e70ff5a4ec5c7df52783ed9526b1223d4bfd6c6d361759008a312d5df3071\",\"urls\":[\"bzz-raw://4eafa0ddff54bbc08d7b29580dad043e77c40554b0a57512e6d703d3eb32fb8e\",\"dweb:/ipfs/QmeLE7aVU7AcCNWFFaAcaKRAnX2k3itvaQdEv6tCyoxMwb\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.6.6+commit.6c089d02\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"token\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amountTokenMin\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"amountETHMin\",\"type\":\"uint256\"},{\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"deadline\",\"type\":\"uint256\"}],\"name\":\"migrate\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/D/Blockchain/Niftswap/niftswap-periphery/contracts/interfaces/INiftMigrator.sol\":\"INiftMigrator\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/D/Blockchain/Niftswap/niftswap-periphery/contracts/interfaces/INiftMigrator.sol\":{\"keccak256\":\"0xfe6e70ff5a4ec5c7df52783ed9526b1223d4bfd6c6d361759008a312d5df3071\",\"urls\":[\"bzz-raw://4eafa0ddff54bbc08d7b29580dad043e77c40554b0a57512e6d703d3eb32fb8e\",\"dweb:/ipfs/QmeLE7aVU7AcCNWFFaAcaKRAnX2k3itvaQdEv6tCyoxMwb\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "immutableReferences": {},
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "pragma solidity >=0.5.0;\r\n\r\ninterface INiftMigrator {\r\n    function migrate(\r\n        address token,\r\n        uint256 amountTokenMin,\r\n        uint256 amountETHMin,\r\n        address to,\r\n        uint256 deadline\r\n    ) external;\r\n}\r\n",
-  "sourcePath": "D:\\Blockchain\\pancake\\niftswap-periphery\\contracts\\interfaces\\INiftMigrator.sol",
+  "sourcePath": "D:\\Blockchain\\Niftswap\\niftswap-periphery\\contracts\\interfaces\\INiftMigrator.sol",
   "ast": {
-    "absolutePath": "/D/Blockchain/pancake/niftswap-periphery/contracts/interfaces/INiftMigrator.sol",
+    "absolutePath": "/D/Blockchain/Niftswap/niftswap-periphery/contracts/interfaces/INiftMigrator.sol",
     "exportedSymbols": {
       "INiftMigrator": [
         5275
@@ -258,7 +258,7 @@
     "src": "0:233:10"
   },
   "legacyAST": {
-    "absolutePath": "/D/Blockchain/pancake/niftswap-periphery/contracts/interfaces/INiftMigrator.sol",
+    "absolutePath": "/D/Blockchain/Niftswap/niftswap-periphery/contracts/interfaces/INiftMigrator.sol",
     "exportedSymbols": {
       "INiftMigrator": [
         5275
@@ -477,7 +477,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.1",
-  "updatedAt": "2021-04-16T18:32:14.937Z",
+  "updatedAt": "2021-04-17T09:18:02.466Z",
   "devdoc": {
     "methods": {}
   },

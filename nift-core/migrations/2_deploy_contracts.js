@@ -9,7 +9,7 @@ module.exports = async function (deployer, network, addresses) {
 
   console.log("You are using network ", network);
   //The factory function's constructor sets the address which will receive trading fee
-  await deployer.deploy(Factory, addresses[0]); //deployer sends the transaction for deployment
+  await deployer.deploy(Factory, "0xe95745a8F4E3cDb1cF5bfFD4A94F0B249e99f489"); //deployer sends the transaction for deployment
 
   const factory = await Factory.deployed(); // waits for the above transaction to be mined
 
