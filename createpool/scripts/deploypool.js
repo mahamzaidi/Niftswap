@@ -6,9 +6,9 @@ const Token2 = artifacts.require('token2.sol');
 
 module.exports = async done => {
   try {
-    //const [admin, _] = await web3.eth.getAccounts();
-    const factory = await Factory.at('0x78A47245BC7BDaa0DB7c19b7B6116E1E11e9fE20');
-    const router = await Router.at('0xb51613D3634683CE09b54A34155Eecbc173eB384');
+    // const [admin, _] = await web3.eth.getAccounts();
+    const factory = await Factory.at('0xcd19B5Ad58FbFfC6E5fbecEfa376014b9A6bE249');
+    const router = await Router.at('0xcF58D60705A07136648c79991d4A769b25dc4ef1');
     const token1 = await Token1.new();
     const token2 = await Token2.new();
     const pairAddress = await factory.createPair.call(token1.address, token2.address);
@@ -18,11 +18,11 @@ module.exports = async done => {
     await router.addLiquidity(
       token1.address,
       token2.address,
-      9000,
-      9000,
-      9000,
-      9000,
-      '0xe95745a8F4E3cDb1cF5bfFD4A94F0B249e99f489',
+      90000,
+      90000,
+      10000,
+      10000,
+      "0xe95745a8F4E3cDb1cF5bfFD4A94F0B249e99f489",
       Math.floor(Date.now() / 1000) + 60 * 10
     );
     const pair = await Pair.at(pairAddress);

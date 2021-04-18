@@ -33,14 +33,14 @@
     "absolutePath": "/D/Blockchain/Niftswap/niftswap-periphery/contracts/interfaces/V1/IUniswapV1Factory.sol",
     "exportedSymbols": {
       "IUniswapV1Factory": [
-        5757
+        5283
       ]
     },
-    "id": 5758,
+    "id": 5284,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 5749,
+        "id": 5275,
         "literals": [
           "solidity",
           ">=",
@@ -57,9 +57,9 @@
         "contractKind": "interface",
         "documentation": null,
         "fullyImplemented": false,
-        "id": 5757,
+        "id": 5283,
         "linearizedBaseContracts": [
-          5757
+          5283
         ],
         "name": "IUniswapV1Factory",
         "nodeType": "ContractDefinition",
@@ -68,7 +68,7 @@
             "body": null,
             "documentation": null,
             "functionSelector": "06f2bf62",
-            "id": 5756,
+            "id": 5282,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
@@ -76,17 +76,17 @@
             "nodeType": "FunctionDefinition",
             "overrides": null,
             "parameters": {
-              "id": 5752,
+              "id": 5278,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 5751,
+                  "id": 5277,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 5756,
+                  "scope": 5282,
                   "src": "84:7:15",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -95,7 +95,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 5750,
+                    "id": 5276,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "84:7:15",
@@ -112,17 +112,17 @@
               "src": "83:9:15"
             },
             "returnParameters": {
-              "id": 5755,
+              "id": 5281,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 5754,
+                  "id": 5280,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 5756,
+                  "scope": 5282,
                   "src": "116:7:15",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -131,7 +131,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 5753,
+                    "id": 5279,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "116:7:15",
@@ -147,14 +147,14 @@
               ],
               "src": "115:9:15"
             },
-            "scope": 5757,
+            "scope": 5283,
             "src": "63:62:15",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 5758,
+        "scope": 5284,
         "src": "28:100:15"
       }
     ],
@@ -164,14 +164,14 @@
     "absolutePath": "/D/Blockchain/Niftswap/niftswap-periphery/contracts/interfaces/V1/IUniswapV1Factory.sol",
     "exportedSymbols": {
       "IUniswapV1Factory": [
-        5757
+        5283
       ]
     },
-    "id": 5758,
+    "id": 5284,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 5749,
+        "id": 5275,
         "literals": [
           "solidity",
           ">=",
@@ -188,9 +188,9 @@
         "contractKind": "interface",
         "documentation": null,
         "fullyImplemented": false,
-        "id": 5757,
+        "id": 5283,
         "linearizedBaseContracts": [
-          5757
+          5283
         ],
         "name": "IUniswapV1Factory",
         "nodeType": "ContractDefinition",
@@ -199,7 +199,7 @@
             "body": null,
             "documentation": null,
             "functionSelector": "06f2bf62",
-            "id": 5756,
+            "id": 5282,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
@@ -207,17 +207,17 @@
             "nodeType": "FunctionDefinition",
             "overrides": null,
             "parameters": {
-              "id": 5752,
+              "id": 5278,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 5751,
+                  "id": 5277,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 5756,
+                  "scope": 5282,
                   "src": "84:7:15",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -226,7 +226,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 5750,
+                    "id": 5276,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "84:7:15",
@@ -243,17 +243,17 @@
               "src": "83:9:15"
             },
             "returnParameters": {
-              "id": 5755,
+              "id": 5281,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 5754,
+                  "id": 5280,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 5756,
+                  "scope": 5282,
                   "src": "116:7:15",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -262,7 +262,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 5753,
+                    "id": 5279,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "116:7:15",
@@ -278,14 +278,14 @@
               ],
               "src": "115:9:15"
             },
-            "scope": 5757,
+            "scope": 5283,
             "src": "63:62:15",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 5758,
+        "scope": 5284,
         "src": "28:100:15"
       }
     ],
@@ -297,7 +297,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.1",
-  "updatedAt": "2021-04-17T09:18:02.545Z",
+  "updatedAt": "2021-04-18T16:46:38.771Z",
   "devdoc": {
     "methods": {}
   },

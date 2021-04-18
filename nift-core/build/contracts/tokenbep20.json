@@ -1,0 +1,104 @@
+{
+  "contractName": "tokenbep20",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/D/Blockchain/Niftswap/nift-core/contracts/tokenbep20.sol\":\"tokenbep20\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/D/Blockchain/Niftswap/nift-core/contracts/tokenbep20.sol\":{\"keccak256\":\"0xb9156edb71cde92c079d9792c1558a518dcae2f769a1fdf136e81e142e3d99e8\",\"urls\":[\"bzz-raw://b11c0c13b340c8e373811fe3e6e378aec7a6f6456be88cd08dbe94026c09a8f0\",\"dweb:/ipfs/QmVb17X99qnDw5u7knuAPi7KkcGgVRX2nNcSpnQiqYSW9d\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a72315820de6cf0712f99e9f7c15b28d381e86a3fcb4ce9bd4cfbb14128a822b6fbdf892b64736f6c63430005100032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a72315820de6cf0712f99e9f7c15b28d381e86a3fcb4ce9bd4cfbb14128a822b6fbdf892b64736f6c63430005100032",
+  "sourceMap": "29:22:15:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;29:22:15;;;;;;;",
+  "deployedSourceMap": "29:22:15:-;;;;;",
+  "source": "pragma solidity >=0.5.16;\r\n\r\ncontract tokenbep20 {}\r\n",
+  "sourcePath": "D:/Blockchain/Niftswap/nift-core/contracts/tokenbep20.sol",
+  "ast": {
+    "absolutePath": "/D/Blockchain/Niftswap/nift-core/contracts/tokenbep20.sol",
+    "exportedSymbols": {
+      "tokenbep20": [
+        2460
+      ]
+    },
+    "id": 2461,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 2459,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.5",
+          ".16"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:25:15"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 2460,
+        "linearizedBaseContracts": [
+          2460
+        ],
+        "name": "tokenbep20",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 2461,
+        "src": "29:22:15"
+      }
+    ],
+    "src": "0:53:15"
+  },
+  "legacyAST": {
+    "absolutePath": "/D/Blockchain/Niftswap/nift-core/contracts/tokenbep20.sol",
+    "exportedSymbols": {
+      "tokenbep20": [
+        2460
+      ]
+    },
+    "id": 2461,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 2459,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.5",
+          ".16"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:25:15"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 2460,
+        "linearizedBaseContracts": [
+          2460
+        ],
+        "name": "tokenbep20",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 2461,
+        "src": "29:22:15"
+      }
+    ],
+    "src": "0:53:15"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.3.1",
+  "updatedAt": "2021-04-18T11:12:38.127Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

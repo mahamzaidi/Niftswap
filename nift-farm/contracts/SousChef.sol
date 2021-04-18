@@ -5,9 +5,8 @@ import '@pancakeswap/pancake-swap-lib/contracts/math/SafeMath.sol';
 import '@pancakeswap/pancake-swap-lib/contracts/token/BEP20/IBEP20.sol';
 import '@pancakeswap/pancake-swap-lib/contracts/token/BEP20/SafeBEP20.sol';
 
-// import "@nomiclabs/buidler/console.sol";
 
-// SousNift is the nift of new tokens. He can make yummy food and he is a fair guy as well as MasterNift.
+// SousNift is the creator of new tokens. He can make yummy food and he is a fair guy as well as MasterNift.
 contract SousNift {
     using SafeMath for uint256;
     using SafeBEP20 for IBEP20;

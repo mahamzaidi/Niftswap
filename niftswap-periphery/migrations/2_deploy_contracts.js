@@ -1,11 +1,11 @@
-const Router = artifacts.require("NiftRouter01.sol");
+const Router = artifacts.require("NiftRouter.sol");
 const WETH = artifacts.require("WETH.sol");
 const Migrator = artifacts.require("NiftMigrator.sol");
 const migrations = artifacts.require("Migrations.sol");
 
 module.exports = async function (deployer, network) {
     let weth;
-    const FACTORY_ADDRESS = '0x78A47245BC7BDaa0DB7c19b7B6116E1E11e9fE20' ;
+    const FACTORY_ADDRESS = '0xcd19B5Ad58FbFfC6E5fbecEfa376014b9A6bE249';
 
     if (network === 'mainnet') {
         weth = await WETH.at('0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2');

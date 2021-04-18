@@ -38,7 +38,7 @@ module.exports = {
         mnemonic,
         'https://bsc-dataseed.binance.org/'
       ),
-      from: '0xe95745a8F4E3cDb1cF5bfFD4A94F0B249e99f489',
+     //from: '0xe95745a8F4E3cDb1cF5bfFD4A94F0B249e99f489',
       network_id: 56,
       skipDryRun: true
     }

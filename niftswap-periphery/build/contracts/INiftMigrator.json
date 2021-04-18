@@ -47,14 +47,14 @@
     "absolutePath": "/D/Blockchain/Niftswap/niftswap-periphery/contracts/interfaces/INiftMigrator.sol",
     "exportedSymbols": {
       "INiftMigrator": [
-        5275
+        4841
       ]
     },
-    "id": 5276,
+    "id": 4842,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 5261,
+        "id": 4827,
         "literals": [
           "solidity",
           ">=",
@@ -71,9 +71,9 @@
         "contractKind": "interface",
         "documentation": null,
         "fullyImplemented": false,
-        "id": 5275,
+        "id": 4841,
         "linearizedBaseContracts": [
-          5275
+          4841
         ],
         "name": "INiftMigrator",
         "nodeType": "ContractDefinition",
@@ -82,7 +82,7 @@
             "body": null,
             "documentation": null,
             "functionSelector": "b7df1d25",
-            "id": 5274,
+            "id": 4840,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
@@ -90,17 +90,17 @@
             "nodeType": "FunctionDefinition",
             "overrides": null,
             "parameters": {
-              "id": 5272,
+              "id": 4838,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 5263,
+                  "id": 4829,
                   "mutability": "mutable",
                   "name": "token",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 5274,
+                  "scope": 4840,
                   "src": "86:13:10",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -109,7 +109,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 5262,
+                    "id": 4828,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "86:7:10",
@@ -124,12 +124,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 5265,
+                  "id": 4831,
                   "mutability": "mutable",
                   "name": "amountTokenMin",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 5274,
+                  "scope": 4840,
                   "src": "110:22:10",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -138,7 +138,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 5264,
+                    "id": 4830,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "110:7:10",
@@ -152,12 +152,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 5267,
+                  "id": 4833,
                   "mutability": "mutable",
                   "name": "amountETHMin",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 5274,
+                  "scope": 4840,
                   "src": "143:20:10",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -166,7 +166,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 5266,
+                    "id": 4832,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "143:7:10",
@@ -180,12 +180,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 5269,
+                  "id": 4835,
                   "mutability": "mutable",
                   "name": "to",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 5274,
+                  "scope": 4840,
                   "src": "174:10:10",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -194,7 +194,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 5268,
+                    "id": 4834,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "174:7:10",
@@ -209,12 +209,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 5271,
+                  "id": 4837,
                   "mutability": "mutable",
                   "name": "deadline",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 5274,
+                  "scope": 4840,
                   "src": "195:16:10",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -223,7 +223,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 5270,
+                    "id": 4836,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "195:7:10",
@@ -239,19 +239,19 @@
               "src": "75:143:10"
             },
             "returnParameters": {
-              "id": 5273,
+              "id": 4839,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "227:0:10"
             },
-            "scope": 5275,
+            "scope": 4841,
             "src": "59:169:10",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 5276,
+        "scope": 4842,
         "src": "28:203:10"
       }
     ],
@@ -261,14 +261,14 @@
     "absolutePath": "/D/Blockchain/Niftswap/niftswap-periphery/contracts/interfaces/INiftMigrator.sol",
     "exportedSymbols": {
       "INiftMigrator": [
-        5275
+        4841
       ]
     },
-    "id": 5276,
+    "id": 4842,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 5261,
+        "id": 4827,
         "literals": [
           "solidity",
           ">=",
@@ -285,9 +285,9 @@
         "contractKind": "interface",
         "documentation": null,
         "fullyImplemented": false,
-        "id": 5275,
+        "id": 4841,
         "linearizedBaseContracts": [
-          5275
+          4841
         ],
         "name": "INiftMigrator",
         "nodeType": "ContractDefinition",
@@ -296,7 +296,7 @@
             "body": null,
             "documentation": null,
             "functionSelector": "b7df1d25",
-            "id": 5274,
+            "id": 4840,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
@@ -304,17 +304,17 @@
             "nodeType": "FunctionDefinition",
             "overrides": null,
             "parameters": {
-              "id": 5272,
+              "id": 4838,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 5263,
+                  "id": 4829,
                   "mutability": "mutable",
                   "name": "token",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 5274,
+                  "scope": 4840,
                   "src": "86:13:10",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -323,7 +323,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 5262,
+                    "id": 4828,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "86:7:10",
@@ -338,12 +338,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 5265,
+                  "id": 4831,
                   "mutability": "mutable",
                   "name": "amountTokenMin",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 5274,
+                  "scope": 4840,
                   "src": "110:22:10",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -352,7 +352,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 5264,
+                    "id": 4830,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "110:7:10",
@@ -366,12 +366,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 5267,
+                  "id": 4833,
                   "mutability": "mutable",
                   "name": "amountETHMin",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 5274,
+                  "scope": 4840,
                   "src": "143:20:10",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -380,7 +380,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 5266,
+                    "id": 4832,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "143:7:10",
@@ -394,12 +394,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 5269,
+                  "id": 4835,
                   "mutability": "mutable",
                   "name": "to",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 5274,
+                  "scope": 4840,
                   "src": "174:10:10",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -408,7 +408,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 5268,
+                    "id": 4834,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "174:7:10",
@@ -423,12 +423,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 5271,
+                  "id": 4837,
                   "mutability": "mutable",
                   "name": "deadline",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 5274,
+                  "scope": 4840,
                   "src": "195:16:10",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -437,7 +437,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 5270,
+                    "id": 4836,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "195:7:10",
@@ -453,19 +453,19 @@
               "src": "75:143:10"
             },
             "returnParameters": {
-              "id": 5273,
+              "id": 4839,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "227:0:10"
             },
-            "scope": 5275,
+            "scope": 4841,
             "src": "59:169:10",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 5276,
+        "scope": 4842,
         "src": "28:203:10"
       }
     ],
@@ -477,7 +477,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.1",
-  "updatedAt": "2021-04-17T09:18:02.466Z",
+  "updatedAt": "2021-04-18T16:46:38.619Z",
   "devdoc": {
     "methods": {}
   },

@@ -32,7 +32,7 @@ module.exports = async function (deployer, network) {
     let feeAccount = FARM_FEE_ACCOUNT;
     let currentAccount = "0xe95745a8F4E3cDb1cF5bfFD4A94F0B249e99f489";
     let wrapped_bnb = "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c";
-    let lpaddress = "0x1Ba4d47F3Bd171bC2935135804E9f6981E89A5B";
+    //let lpaddress = "0x1Ba4d47F3Bd171bC2935135804E9f6981E89A5B";
 
     /**Deploy nift token */
     deployer.deploy(NiftToken).then((result) => {
@@ -56,7 +56,7 @@ module.exports = async function (deployer, network) {
             return deployer.deploy(_masternift,
                 NiftToken.address,
                 NiftBar.address,
-                feeAccount,    //dev address                                             
+                "0xe95745a8F4E3cDb1cF5bfFD4A94F0B249e99f489",    //dev address                                             
                 BigNumber.from(TOKENS_PER_BLOCK).mul(BigNumber.from(String(10 ** 18))), REWARDS_START
             )
         }
@@ -64,7 +64,7 @@ module.exports = async function (deployer, network) {
         return deployer.deploy(_masternift,
             NiftToken.address,
             NiftBar.address,
-            feeAccount,
+            "0xe95745a8F4E3cDb1cF5bfFD4A94F0B249e99f489",
             BigNumber.from(TOKENS_PER_BLOCK).mul(BigNumber.from(String(10 ** 18))),
             0,
 

@@ -63,7 +63,7 @@ contract MasterNift is Ownable {
     // The NIFT TOKEN!
     NiftToken public nift;
     // The SYRUP TOKEN!
-    SpecialNiftBar public syrup;
+    SpecialNiftBar public specialnift;
     // Dev address.
     address public devaddr;
     // NIFT tokens created per block.
@@ -92,13 +92,13 @@ contract MasterNift is Ownable {
 
     constructor(
         NiftToken _nift,
-        SpecialNiftBar _syrup,
+        SpecialNiftBar _specialnift,
         address _devaddr,
         uint256 _niftPerBlock,
         uint256 _startBlock
     ) public {
         nift = _nift;
-        syrup = _syrup;
+        specialnift = _specialnift;
         devaddr = _devaddr;
         niftPerBlock = _niftPerBlock;
         startBlock = _startBlock;
@@ -257,7 +257,7 @@ contract MasterNift is Ownable {
                 totalAllocPoint
             );
         nift.mint(devaddr, niftReward.div(10));
-        nift.mint(address(syrup), niftReward);
+        nift.mint(address(specialnift), niftReward);
         pool.accNiftPerShare = pool.accNiftPerShare.add(
             niftReward.mul(1e12).div(lpSupply)
         );
@@ -339,7 +339,7 @@ contract MasterNift is Ownable {
         }
         user.rewardDebt = user.amount.mul(pool.accNiftPerShare).div(1e12);
 
-        syrup.mint(msg.sender, _amount);
+        specialnift.mint(msg.sender, _amount);
         emit Deposit(msg.sender, 0, _amount);
     }
 
@@ -362,7 +362,7 @@ contract MasterNift is Ownable {
         }
         user.rewardDebt = user.amount.mul(pool.accNiftPerShare).div(1e12);
 
-        syrup.burn(msg.sender, _amount);
+        specialnift.burn(msg.sender, _amount);
         emit Withdraw(msg.sender, 0, _amount);
     }
 
@@ -378,7 +378,7 @@ contract MasterNift is Ownable {
 
     // Safe nift transfer function, just in case if rounding error causes pool to not have enough NIFTSs.
     function safeNiftTransfer(address _to, uint256 _amount) internal {
-        syrup.safeNiftTransfer(_to, _amount);
+        specialnift.safeNiftTransfer(_to, _amount);
     }
 
     // Update dev address by the previous dev.
